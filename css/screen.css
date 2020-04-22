@@ -404,6 +404,62 @@ a:focus {
     height: 100%;
 }
 
+/*
+    components: nav
+    ---
+    navigatie (^_^)
+*/
+
+.c-nav__link ,
+.c-nav__link:visited,
+.c-nav__link:active,
+.c-nav__link:hover,
+.c-nav__link:focus{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.c-nav__link:focus ,
+.c-nav__link:hover {
+    color: #DBEDFF;
+    text-shadow: 0 0 8px #8EC7FF;
+}
+
+@media (min-width: 768px) {
+    .c-nav__list {
+        display: flex;
+        margin-bottom: 24px;
+        
+    }
+
+    .c-nav__link {
+        padding: 8px 16px;
+    }
+}
+
+/*
+    Component: header
+    ---
+    Main header of the website
+*/
+
+.c-header__nav {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .c-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .c-header__nav {
+        display: block;
+    }
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
