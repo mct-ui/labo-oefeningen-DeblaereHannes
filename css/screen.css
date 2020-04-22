@@ -460,6 +460,41 @@ a:focus {
     }
 }
 
+/*
+    Component: CTA link
+    ---
+    Small cta link with custom animation
+*/
+
+.c-link-cta {
+    flex: 1 1 auto;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    display: inline-block;
+    line-height: 24px;
+    padding: 5px;
+    background-image: linear-gradient(to right, blue 0%, rgb(56, 97, 141) 51%, blue 100%);
+    box-shadow: cyan;
+    font-size: 18px;
+    font-weight: 3.111em;
+}
+
+.c-link-cta:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+
+.c-link-cta:hover,
+.c-link-cta:visited,
+.c-link-cta:active,
+.c-link-cta:focus {
+    color: white;
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
