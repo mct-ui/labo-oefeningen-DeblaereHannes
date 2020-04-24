@@ -495,6 +495,30 @@ a:focus {
     color: white;
 }
 
+/*
+    Component: onderaan foto
+    ---
+    :/
+*/
+
+.container-test {
+    position: relative;
+}
+.img-test {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.caption-test {
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    padding: 10px;
+    border-right: 5px solid blue;
+    color: black;
+    background: white;
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
